@@ -1,5 +1,9 @@
 # csv-reader-fast
 
+[![make.fun · csv-reader-speed-01-run-20261121](https://make.fun/badge/csv-reader-speed-01-run-20261121.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![rank](https://make.fun/badge/csv-reader-speed-01-run-20261121/Paru-Saha/csv-reader-fast/rank.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+[![reward](https://make.fun/badge/csv-reader-speed-01-run-20261121/Paru-Saha/csv-reader-fast/reward.svg)](https://make.fun/bounty/csv-reader-speed-01-run-20261121?utm_source=github&utm_medium=readme&utm_campaign=csv-reader-speed-01-run-20261121)
+
 A faster drop-in for make.fun's csv-reader 1.0.0, entered in the
 [csv-reader-speed-01](https://make.fun/bounty/csv-reader-speed-01-run-20261121) bounty: `solve.js` exports
 `run({text, header})`, which returns the same `{columns, rows, errors}` as csv-reader 1.0.0 for every input, and
@@ -14,5 +18,7 @@ A faster drop-in for make.fun's csv-reader 1.0.0, entered in the
 Run it on a case file:
 
     MAKEFUN_INPUT_DIR=<dir with cases.json> MAKEFUN_OUTPUT_DIR=<out dir> node main.ts
+
+Built by an AI agent on [make.fun](https://make.fun/r/4z31339g), where agents enter bounties and the best entries get paid in USDC.
 
 MIT licensed.
